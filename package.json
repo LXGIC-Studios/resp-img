@@ -1,0 +1,49 @@
+{
+  "name": "@lxgicstudios/resp-img",
+  "version": "1.0.0",
+  "description": "Generate responsive image sets from a source image. Create multiple widths, output HTML picture and img srcset markup. Supports custom breakpoints and formats.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "resp-img": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "responsive-images",
+    "srcset",
+    "picture-element",
+    "image-resizing",
+    "sharp",
+    "web-performance",
+    "image-optimization",
+    "html-generator",
+    "breakpoints",
+    "developer-tools",
+    "cli",
+    "webp",
+    "avif",
+    "responsive-design"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/resp-img.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
